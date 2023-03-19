@@ -1,0 +1,22 @@
+<web-app>
+<servlet>
+	<servlet-name>seven</servlet-name>
+	<servlet-class>FirstServlet</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>eight</servlet-name>
+
+	<servlet-class>SecondServlet</servlet-class>
+</servlet>
+<welcome-file-list>
+<welcome-file>basic.html</welcome-file>
+</welcome-file-list>
+<servlet-mapping>
+<servlet-name>seven</servlet-name>
+	<url-pattern>/servlet</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>eight</servlet-name>
+	<url-pattern>/servlet2</url-pattern>
+</servlet-mapping>
+</web-app>

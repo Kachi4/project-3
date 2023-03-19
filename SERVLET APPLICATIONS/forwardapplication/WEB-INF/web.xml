@@ -1,0 +1,21 @@
+<web-app>
+    <servlet>
+        <servlet-name>five</servlet-name>
+        <servlet-class>GrossServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>six</servlet-name>
+        <servlet-class>NetServlet</servlet-class>
+    </servlet>
+    <welcome-file-list>
+        <welcome-file>basic.html</welcome-file>
+    </welcome-file-list>
+    <servlet-mapping>
+        <servlet-name>five</servlet-name>
+        <url-pattern>/ssrc</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>six</servlet-name>
+        <url-pattern>/starget</url-pattern>
+    </servlet-mapping>
+</web-app>

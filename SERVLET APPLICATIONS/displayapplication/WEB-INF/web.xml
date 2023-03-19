@@ -1,0 +1,21 @@
+<web-app>
+	<servlet>
+		<servlet-name>three</servlet-name>
+		<servlet-class>DisplayServlet</servlet-class>
+<init-param>
+	<param-name>p1</param-name>
+	  <param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>
+</init-param>
+<init-param>
+		<param-name>p2</param-name>
+	  <param-value>jdbc:odbc:cmrcet</param-value>
+</init-param>
+	</servlet>
+	<welcome-file-list>
+		<welcome-file>display.html</welcome-file>
+	</welcome-file-list>
+	<servlet-mapping>
+		<servlet-name>three</servlet-name>
+		<url-pattern>/dis</url-pattern>
+	</servlet-mapping>
+</web-app>

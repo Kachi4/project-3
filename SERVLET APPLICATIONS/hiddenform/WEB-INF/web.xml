@@ -1,0 +1,19 @@
+<web-app>
+       <servlet>
+	<servlet-name>fourteen</servlet-name>
+	<servlet-class>RegistrationServletOne</servlet-class>	
+      </servlet>
+       <servlet>
+	<servlet-name>fifteen</servlet-name>
+	<servlet-class>RegistrationServletTwo</servlet-class>	
+      </servlet>
+
+        <servlet-mapping>
+	<servlet-name>fourteen</servlet-name>
+	<url-pattern>/registerone</url-pattern>	
+      </servlet-mapping>
+        <servlet-mapping>
+	<servlet-name>fifteen</servlet-name>
+	<url-pattern>/registertwo</url-pattern>	
+      </servlet-mapping>
+</web-app>
