@@ -4,11 +4,31 @@
 	<servlet-class>RegisterServlet</servlet-class>
 </servlet>
 
+<servlet>
+	<servlet-name>search</servlet-name>
+	<servlet-class>SearchServlet</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>delete</servlet-name>
+	<servlet-class>DeleteServlet</servlet-class>
+</servlet>
+
 <servlet-mapping>
 	<servlet-name>one</servlet-name>
 	<url-pattern>/reg</url-pattern>
 
 
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>search</servlet-name>
+	<url-pattern>/search</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>delete</servlet-name>
+	<url-pattern>/delete</url-pattern>
 </servlet-mapping>
 
 
