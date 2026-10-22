@@ -1,0 +1,65 @@
+"SERVLET APPLICATIONS/RegisterForm/WEB-INF/src/DeleteServlet.java"
+  s_3835a7faa8586c::t_d22d76e17ce5d8 1-71
+"SERVLET APPLICATIONS/RegisterForm/WEB-INF/src/SearchServlet.java"
+  s_3835a7faa8586c::t_a681116bacb60f 1-70
+"SERVLET APPLICATIONS/RegisterForm/WEB-INF/web.xml"
+  s_3835a7faa8586c::t_7e9908c867cfc5 7-16,24-33,35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "autter_version": "2.2.1",
+  "base_commit_sha": "ba3967602f28943a02abfbc7ee58b384f0360d06",
+  "branch": "feature/student-search",
+  "prompts": {
+    "s_3835a7faa8586c": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "c3ee0c29-1cb1-4b5f-a959-28885ac36261",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Shravani Dupathi <shravani.dupathi@cognida.ai>",
+      "messages_url": "cas:da3f01a645769828e5bbc6505eb70852393b4b8ebfce41ce553a119539509687",
+      "total_additions": 162,
+      "total_deletions": 1,
+      "accepted_lines": 162,
+      "overriden_lines": 0
+    }
+  },
+  "sessions": {
+    "s_3835a7faa8586c": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "c3ee0c29-1cb1-4b5f-a959-28885ac36261",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Shravani Dupathi <shravani.dupathi@cognida.ai>",
+      "messages_url": "cas:da3f01a645769828e5bbc6505eb70852393b4b8ebfce41ce553a119539509687",
+      "stats": {
+        "total_additions": 162,
+        "total_deletions": 1,
+        "accepted_lines": 162,
+        "overriden_lines": 0,
+        "files": {
+          "SERVLET APPLICATIONS/RegisterForm/WEB-INF/src/DeleteServlet.java": {
+            "total_additions": 71,
+            "total_deletions": 0,
+            "accepted_lines": 71,
+            "overriden_lines": 0
+          },
+          "SERVLET APPLICATIONS/RegisterForm/WEB-INF/src/SearchServlet.java": {
+            "total_additions": 70,
+            "total_deletions": 0,
+            "accepted_lines": 70,
+            "overriden_lines": 0
+          },
+          "SERVLET APPLICATIONS/RegisterForm/WEB-INF/web.xml": {
+            "total_additions": 21,
+            "total_deletions": 1,
+            "accepted_lines": 21,
+            "overriden_lines": 0
+          }
+        }
+      }
+    }
+  }
+}
