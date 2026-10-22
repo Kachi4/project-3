@@ -1,0 +1,8 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "autter_version": "2.2.1",
+  "base_commit_sha": "bfbf675b534738081cbdf005761c51cebfe72c63",
+  "branch": "feature/student-search",
+  "prompts": {}
+}
